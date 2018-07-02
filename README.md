@@ -99,4 +99,4 @@
 * dom.getBoundingClientRect().width/height;
 ### 根据和模型解释边距重叠
  
-### BFC（解决方案）
+[解决方案](https://blog.csdn.net/xuehangongzi/article/details/80713854)
