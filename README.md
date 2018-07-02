@@ -25,77 +25,7 @@
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title></title>
     <style>
-      .box {
-        flex: 0 0 auto: ;
-        justify-content: space-between;
-        display: flex;
-        margin: 16px;
-        padding: 4px;
-        background-color: #e7e7e7;
-        width: 104px;
-        height: 104px;
-        object-fit: contain;
-        box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7, inset -5px 0 #d7d7d7;
-        border-radius: 10%;
-      }
-      
-      .item {
-        display: block;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        margin: 4px;
-        background-color: #333;
-        box-shadow: inset 0 3px #111, inset 0 -3px #555;
-      }
-      
-      .box1 {
-        justify-content: center;
-        /*主轴项目居中*/
-        align-items: center;
-        /*交叉轴项目居中*/
-      }
-      
-      .box2>.item:nth-child(2) {
-        align-self: flex-end;
-      }
-      
-      .box3>.item:nth-of-type(2) {
-        align-self: center;
-      }
-      
-      .box3>.item:nth-of-type(3) {
-        align-self: flex-end;
-      }
-      
-      .box4 {
-        flex-wrap: wrap;
-      }
-      
-      .coloum {
-        display: flex;
-        flex-basis: 100%;
-        justify-content: space-between;
-      }
-      
-      .box4>.coloum:nth-of-type(2) {
-        align-items: flex-end;
-      }
-      .box5{
-        flex-wrap: wrap;
-      }
-      .box5>.coloum:nth-of-type(2){
-        justify-content: center;
-        align-items: center;
-      }
-      .box6{
-        flex-wrap: wrap;
-      }
-      body{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-      }
+     .box{flex:0 0 auto:;justify-content:space-between;display:flex;margin:16px;padding:4px;background-color:#e7e7e7;width:104px;height:104px;object-fit:contain;box-shadow:inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7, inset -5px 0 #d7d7d7;border-radius:10%}.item{display:block;width:24px;height:24px;border-radius:50%;margin:4px;background-color:#333;box-shadow:inset 0 3px #111, inset 0 -3px #555}.box1{justify-content:center;align-items:center}.box2 > .item:nth-child(2){align-self:flex-end}.box3 > .item:nth-of-type(2){align-self:center}.box3 > .item:nth-of-type(3){align-self:flex-end}.box4{flex-wrap:wrap}.coloum{display:flex;flex-basis:100%;justify-content:space-between}.box4 > .coloum:nth-of-type(2){align-items:flex-end}.box5{flex-wrap:wrap}.box5 > .coloum:nth-of-type(2){justify-content:center;align-items:center}.box6{flex-wrap:wrap}body{display:flex;justify-content:center;flex-wrap:wrap}
     </style>
   </head>
 
