@@ -98,6 +98,7 @@
 * window.getComputedStyle(dom).width/height(兼容chrome等其他游览器)；
 * dom.getBoundingClientRect().width/height;
 ### 根据和模型解释边距重叠
-* 参考链接
+* 父子元素和兄弟元素边距重叠
+* 参考链接<br>
 [1](https://blog.csdn.net/xuehangongzi/article/details/80713854)<br>
 [2](https://www.cnblogs.com/libin-1/p/7098468.html)
