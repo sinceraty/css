@@ -99,6 +99,16 @@
 * dom.getBoundingClientRect().width/height;
 ### 根据和模型解释边距重叠
 * 父子元素和兄弟元素边距重叠
+* 相邻的两个BFC设置margin也会边距重叠  
+```html 
+  <section class="container container1">
+     <p>1</p>
+  </section>
+
+  <div class="container container2">
+    <p>1</p>
+  </div>
+```
 * 参考链接<br>
 [1](https://blog.csdn.net/xuehangongzi/article/details/80713854)<br>
 [2](https://www.cnblogs.com/libin-1/p/7098468.html)
