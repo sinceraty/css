@@ -101,6 +101,11 @@
 * 父子元素和兄弟元素边距重叠
 * 相邻的两个BFC设置margin也会边距重叠  
 ```html 
+  <style>
+    .container{
+      margin:20px 0;
+    }
+  </style>
   <section class="container container1">
      <p>1</p>
   </section>
