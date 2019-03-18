@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪类</title>
+</head>
+<style>
+    .or {
+        display: block;
+        width:300px;
+        position: relative;
+       
+    } 
+    .or:before {
+        content: "";
+        /*CSS伪类用法*/
+        position: absolute;
+        /*定位背景横线的位置*/
+        width: 100%;
+        /*宽和高做出来的背景横线*/
+        height: 1px;
+        background: #CCCCCC;
+        top: 20px;
+    }
+</style>
+
+<body>
+    <div style="width:600px">
+            <span class="or">伪类</span>
+    </div>
+</body>
+
+</html>
